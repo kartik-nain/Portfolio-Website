@@ -507,7 +507,7 @@ header .circle {
     overflow: hidden;
     padding: 3rem 2rem;
     margin-top: -1rem;
-    width: 400px;
+    width: 310px;
     height: 590px;
     background-color: var(--light-three);
 }
@@ -533,7 +533,7 @@ header .circle {
 }
 
 .card .text {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 1.5rem 0;
 }
 
@@ -1402,6 +1402,10 @@ button{
     .header-content .container.grid-2 {
         height: 670px;
         padding-bottom: 1.5rem;
+    }
+
+    .about .text{
+        font-size: 0.7rem;
     }
 }
 
