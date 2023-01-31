@@ -772,6 +772,10 @@ header .circle {
     margin-top: 0.6rem;
 }
 
+button{
+    border: none;
+}
+
 /* Responsive */
 
 @media (max-width: 1280px) {
