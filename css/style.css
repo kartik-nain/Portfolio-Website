@@ -1391,4 +1391,18 @@ button{
     
 }
 
+@media (max-width:470px){
+    .header-content .container.grid-2 {
+        height: 750px;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media (max-width:400px){
+    .header-content .container.grid-2 {
+        height: 670px;
+        padding-bottom: 1.5rem;
+    }
+}
+
 /* End Responsive */
