@@ -608,7 +608,7 @@ header .circle {
 
 .gallery-image img {
     position: absolute;
-    height: 120%;
+    height: 100%;
     width: initial;
     top: 50%;
     left: 50%;
@@ -621,7 +621,7 @@ header .circle {
     position: absolute;
     z-index: 2;
     color: var(--light-one);
-    background-color: rgba(95, 151, 191, 0.593);
+    background-color: rgba(67, 127, 170, 0.593);
     display: flex;
     align-items: center;
     justify-content: center;
