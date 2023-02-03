@@ -1407,6 +1407,14 @@ button{
     .about .text{
         font-size: 0.7rem;
     }
+
+    .contact-info{
+        width: 200px;
+    }
+
+    .contact .info-text{
+        font-size: 0.7rem;
+    }
 }
 
 /* End Responsive */
