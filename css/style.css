@@ -1252,9 +1252,9 @@ button{
     }
 
     .about .column-1 .text {
-        position: relative;
-        display: flex;
-        height: 100px;
+        
+        
+        height: 200px;
         width: 500px;
     }
 
