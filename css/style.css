@@ -398,11 +398,8 @@ header .circle {
 }
 
 .about .text {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
+    margin: 0 auto;
+    
 }
 
 .wrapper {
@@ -508,7 +505,7 @@ header .circle {
     padding: 3rem 2rem;
     margin-top: -1rem;
     width: 310px;
-    height: 590px;
+    height: 720px;
     background-color: var(--light-three);
 }
 
@@ -779,6 +776,9 @@ button{
 /* Responsive */
 
 @media (max-width: 1280px) {
+    .card {
+        height: 610px;
+    }
     .column-1 .row-2 .contact-icon i {
         margin-top: 0rem;
     }
@@ -1396,6 +1396,10 @@ button{
         height: 750px;
         padding-bottom: 1.5rem;
     }
+    .about .text{
+        font-size: 0.9rem;
+
+    }
 }
 
 @media (max-width:400px){
@@ -1405,7 +1409,7 @@ button{
     }
 
     .about .text{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .contact-info{
@@ -1413,6 +1417,12 @@ button{
     }
 
     .contact .info-text{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:330px){
+    .about .text{
         font-size: 0.7rem;
     }
 }
