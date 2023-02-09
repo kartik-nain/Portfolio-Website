@@ -399,7 +399,6 @@ header .circle {
 
 .about .text {
     margin: 0 auto;
-    
 }
 
 .wrapper {
@@ -1336,6 +1335,9 @@ button{
         height: 22px;
     }
 
+    .about {
+        height: 650px;
+    }
     .about img {
         max-width: 300px;
     }
@@ -1343,6 +1345,7 @@ button{
 
     .about .text {
         margin-top: 0.5rem;
+        margin-bottom: 1rem;
         font-size: 0.9rem;
         max-width: fit-content;
     }
@@ -1396,7 +1399,9 @@ button{
         height: 750px;
         padding-bottom: 1.5rem;
     }
+
     .about .text{
+        margin-bottom: 4rem;
         font-size: 0.9rem;
 
     }
