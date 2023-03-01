@@ -442,18 +442,19 @@
                         <h3 class="title">Contact Me</h3>
                         <form name="Contact-Form" netlify>
                             <div class="row">
-                                <input type="text" class="contact-input" placeholder="First Name" name="First Name">
-                                <input type="text" class="contact-input" placeholder="Last Name" name="Last Name">
+                                <input type="text" class="contact-input" placeholder="First Name" name="First Name" REQUIRED>
+                                <input type="text" class="contact-input" placeholder="Last Name" name="Last Name" REQUIRED>
                             </div>
                             <div class="row">
-                                <input type="tel" class="contact-input" placeholder="Phone" name="Phone">
-                                <input type="email" class="contact-input" placeholder="Email" name="Email">
+                                <input type="tel" class="contact-input" placeholder="Phone Number" name="Phone" pattern="[0-9]{10}">
+                                <input type="email" class="contact-input" placeholder="Email" name="Email" REQUIRED>
                             </div>
                             <div class="row">
                                 <textarea name="message" class="contact-input textarea"
                                     placeholder="Message"></textarea>
                             </div>
-                            <button type="submit" class="btn">Send</button>
+                            <button type="submit" class="btn"  onclick="validateAndSend()">Send</button>
+                            
                         </form>
                     </div>
                 </div>
