@@ -504,7 +504,7 @@ header .circle {
     padding: 3rem 2rem;
     margin-top: -1rem;
     width: 310px;
-    height: 720px;
+    height: 590px;
     background-color: var(--light-three);
 }
 
@@ -776,7 +776,7 @@ button{
 
 @media (max-width: 1280px) {
     .card {
-        height: 610px;
+        height: 460px;
     }
     .column-1 .row-2 .contact-icon i {
         margin-top: 0rem;
